@@ -7,5 +7,8 @@
 "iota": "https://blog.iota.org/latest",
 "bitfinex": "https://medium.com/bitfinex/latest",
 "eth" : "https://blog.ethereum.org/",
-"xmr" : "https://getmonero.org/blog/"
+"xmr" : "https://getmonero.org/blog/",
+"theoceanx" : "https://medium.com/the-ocean-x",
+"eos" : "https://medium.com/eosio/latest",
+"omg" : "https://blog.omisego.network/latest"
 }
