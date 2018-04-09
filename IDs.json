@@ -1,0 +1,11 @@
+{
+"0x": "https://blog.0xproject.com/latest",
+"binance": "https://medium.com/binanceexchange/latest",
+"coinbase": "https://blog.coinbase.com/latest",
+"enigma": "https://blog.enigma.co/latest",
+"origin_protocol": "https://medium.com/originprotocol/latest",
+"iota": "https://blog.iota.org/latest",
+"bitfinex": "https://medium.com/bitfinex/latest",
+"eth" : "https://blog.ethereum.org/",
+"xmr" : "https://getmonero.org/blog/"
+}

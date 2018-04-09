@@ -1,0 +1,11 @@
+https://medium.com/bitfinex/announcing-eosfinex-69eea273369f
+https://medium.com/bitfinex/platform-development-update-march-8th-2018-bc44b5b0e407
+https://medium.com/bitfinex/honey-framework-d1d37d02f1df
+https://medium.com/bitfinex/security-on-bitfinex-efc88dbd3f04
+https://medium.com/bitfinex/node-js-client-2-0-0-beta-release-67bc6e1d139b
+https://medium.com/bitfinex/bitfinex-adopts-segwit-8e6c5d72fcf9
+https://medium.com/bitfinex/security-update-a408275b5353
+https://medium.com/bitfinex/bitfinex-adopts-trade-surveillance-platform-irisium-62aff2d51c3c
+https://medium.com/bitfinex/new-tokens-added-to-bitfinex-f00391305214
+https://medium.com/bitfinex/new-tokens-tradable-on-bitfinex-d2635bda1e32
+https://medium.com/bitfinex/bitfinex-introduces-trading-for-12-new-ethereum-tokens-d008d5a2e720
