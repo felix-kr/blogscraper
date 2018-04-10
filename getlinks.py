@@ -21,15 +21,29 @@ def getlinks(id):
         links.append(x)
 
     # filters for non medium blogs(eth, monero etc)
+
+    filterdict = {
+    "eth": ["h1"],
+    "stellar": ["h1", "blog0516-summary__title entry-title"],
+    "ripple": ["h2", "entry-title"],
+    }
+
     if not links:
+        for x in filterdict:
+            if id == x:
+                if len(filterdict[x]) != 1:
+                    for y in soup.find_all(filterdict[x][0], {"class": filterdict[x][1]}):
+                        links.append(y.find("a")["href"])
+                else:
+                    for y in soup.find_all(filterdict[x][0]):
+                        links.append(y.find("a")["href"])
         if id == "xmr":
             for x in soup.find_all("h3"):
                 if x.find("a"):
                     links.append("https:/getmonero.org" + x.find("a")["href"])
-        elif id == "eth":
-            for x in soup.find_all("h1"):
-                if x.find("a"):
-                    links.append(x.find("a")["href"])
+        elif id == "neo":
+            for x in soup.find_all("a", {"class": "blog-title"}):
+                links.append("https://neo.org/blog" +x["href"])
 
     print("|", file=log, end=" ", flush=True)
 

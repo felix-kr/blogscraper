@@ -10,5 +10,11 @@
 "xmr" : "https://getmonero.org/blog/",
 "theoceanx" : "https://medium.com/the-ocean-x",
 "eos" : "https://medium.com/eosio/latest",
-"omg" : "https://blog.omisego.network/latest"
+"omg" : "https://blog.omisego.network/latest",
+"ltc" : "https://blog.litecoin.org/latest",
+"stellar" : "https://www.stellar.org/blog/category/stellar-news/",
+"bcash" : "https://medium.com/btc-com/tagged/bitcoincash",
+"ripple" : "https://ripple.com/category/xrp/",
+"vechain" : "https://medium.com/@vechainofficial/latest",
+"neo" : "https://neo.org/blog?lang=en"
 }
