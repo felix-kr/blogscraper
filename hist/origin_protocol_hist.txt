@@ -8,3 +8,4 @@ https://medium.com/originprotocol/ten-things-to-expect-when-moving-from-a-tradit
 https://medium.com/originprotocol/building-on-origin-announcing-the-latest-projects-building-on-our-platform-6d91034d219e
 https://medium.com/originprotocol/announcing-origin-protocols-first-technology-partner-wetrust-33a52c311ab7
 https://medium.com/originprotocol/moving-from-slack-to-discord-1dd2c939b77b
+https://medium.com/originprotocol/origin-nucypher-private-data-on-a-public-blockchain-ba6e6f85ecb8

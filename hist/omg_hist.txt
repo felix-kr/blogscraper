@@ -8,3 +8,4 @@ https://blog.omisego.network/the-omisego-ewallet-sdk-is-now-open-source-fce7c610
 https://blog.omisego.network/construction-of-a-plasma-chain-0x1-614f6ebd1612
 https://blog.omisego.network/omg-network-staking-returns-5744a23f4569
 https://blog.omisego.network/ethereum-community-fund-41ec94d94529
+https://blog.omisego.network/dai-and-omg-uniting-for-a-more-decentralized-tomorrow-eb7daf81ba7

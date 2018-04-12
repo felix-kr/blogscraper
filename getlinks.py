@@ -43,7 +43,7 @@ def getlinks(id):
                     links.append("https:/getmonero.org" + x.find("a")["href"])
         elif id == "neo":
             for x in soup.find_all("a", {"class": "blog-title"}):
-                links.append("https://neo.org/" +x["href"])
+                links.append("https://neo.org" +x["href"])
 
     print("|", file=log, end=" ", flush=True)
 

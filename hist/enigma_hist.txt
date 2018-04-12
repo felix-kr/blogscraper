@@ -9,3 +9,4 @@ https://blog.enigma.co/launching-the-new-enigma-website-and-catalyst-developer-f
 https://blog.enigma.co/introducing-the-growing-enigma-team-8c8233db335c
 https://blog.enigma.co/sneak-peek-enigma-data-marketplace-a25ff911e616
 https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2
+https://blog.enigma.co/building-on-chain-reputation-79139abe1730

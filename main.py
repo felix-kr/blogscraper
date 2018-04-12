@@ -3,6 +3,30 @@ import time
 import telegrambot
 import json
 import os
+import argparse
+
+parser = argparse.ArgumentParser() # argument to turn off telegrambot
+parser.add_argument("-t", action="store_true")
+args = parser.parse_args()
+
+def generatelinksets(id):
+    for y in getlinks.getlinks(id):
+        dict1[id][id + "_curr"].add(y)
+
+def writehist(id):
+    read = open(os.path.join(os.getcwd(), "hist", id + "_hist.txt"), "r")
+    dict1[id][id + "_hist"] =  read.read()
+    read.close()
+
+def checkhist(id):
+    write = open(os.path.join(os.getcwd(), "hist", id + "_hist.txt"), "a")
+    for y in dict1[id][id + "_curr"]:
+        if not y in dict1[id][id + "_hist"]:
+            write.write(y + "\n")
+            print("New Story: " + y)
+            if not vars(args)["t"]:
+                telegrambot.sendmsg(y)
+    write.close()
 
 IDs = json.load(open("IDs.json"))
 open("log.txt", "w").close()
@@ -21,29 +45,13 @@ z = 0
 
 while True:
     try:
-        for x in IDs: # generating current set of links for each item in IDs
-            for y in getlinks.getlinks(x):
-                dict1[x][x + "_curr"].add(y)
-            if not dict1[x][x + "_curr"]:
-                telegrambot.sendmsg("Error with ID " + x)
-
-        for x in IDs: # writing current content of _hist.txt files into _hist strings
-            read = open(os.path.join(os.getcwd(), "hist", x + "_hist.txt"), "r")
-            dict1[x][x + "_hist"] =  read.read()
-            read.close()
-
-        for x in IDs: # checking if items in _curr strings are already in _hist strings
-            write = open(os.path.join(os.getcwd(), "hist", x + "_hist.txt"), "a")
-            for y in dict1[x][x + "_curr"]:
-                if not y in dict1[x][x + "_hist"]:
-                    write.write(y + "\n")
-                    print("New Story: " + y)
-                    telegrambot.sendmsg(y)
-            write.close()
+        for x in IDs:
+            generatelinksets(x)
+            writehist(x)
+            checkhist(x)
 
         z += 1
         print(z, file=log, flush=True)
-        time.sleep(20)
         print("done sleeping", file=log, flush=True)
 
     except Exception as e:
