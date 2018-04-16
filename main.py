@@ -32,7 +32,6 @@ IDs = json.load(open("IDs.json"))
 open("log.txt", "w").close()
 log = open("log.txt", "a")
 
-
 dict1 = {}
 
 for x in IDs: # setting up dict
@@ -41,17 +40,17 @@ for x in IDs: # setting up dict
     dict1[x][x + "_hist"] = str()
 
 print("Starting...")
-z = 0
 
 while True:
     try:
+        start = time.time()
         for x in IDs:
             generatelinksets(x)
             writehist(x)
             checkhist(x)
+        end = time.time()
+        print(round(end - start, 2), file=log, flush=True)
 
-        z += 1
-        print(z, file=log, flush=True)
         print("done sleeping", file=log, flush=True)
 
     except Exception as e:

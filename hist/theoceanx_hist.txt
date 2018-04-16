@@ -9,3 +9,4 @@ https://medium.com/the-ocean-x/getting-started-with-the-ocean-x-api-for-node-js-
 https://medium.com/the-ocean-x/api-first-ask-questions-later-the-infrastructure-of-the-decentralized-economy-9c04d8ebdf07
 https://medium.com/the-ocean-x/we-changed-our-name-slightly-4cd72bf4d386
 https://medium.com/the-ocean-x/efficient-execution-surveying-the-dex-landscape-e514f57fcf8a
+https://medium.com/the-ocean-x/cryptos-algos-and-you-a680aa785166
