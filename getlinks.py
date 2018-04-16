@@ -7,12 +7,17 @@ IDs = json.load(open("IDs.json"))
 
 def getlinks(id):
 
-    data = requests.get(IDs[id])
-    html = data.content.decode("utf-8")
+    links = []
+
+    try:
+        data = requests.get(IDs[id], timeout=1)
+        html = data.content.decode("utf-8")
+    except (requests.exceptions.ConnectTimeout, requests.exceptions.ReadTimeout):
+        print("-", file=log, end=" ", flush=True)
+        return links
 
     soup = BeautifulSoup(html, "html.parser")
 
-    links = []
 
     # main filter for medium blogs
     for x in soup.find_all("div", {"class": "postArticle-readMore"}):
