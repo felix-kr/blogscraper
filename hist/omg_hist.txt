@@ -9,3 +9,5 @@ https://blog.omisego.network/construction-of-a-plasma-chain-0x1-614f6ebd1612
 https://blog.omisego.network/omg-network-staking-returns-5744a23f4569
 https://blog.omisego.network/ethereum-community-fund-41ec94d94529
 https://blog.omisego.network/dai-and-omg-uniting-for-a-more-decentralized-tomorrow-eb7daf81ba7
+https://blog.omisego.network/strategy-vol-02-89a4d8476eed
+https://blog.omisego.network/%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%97%E0%B8%AD%E0%B8%A5%E0%B9%8C%E0%B8%81-ethereum-casper-%E0%B9%81%E0%B8%A5%E0%B8%B0-sharding-%E0%B9%82%E0%B8%94%E0%B8%A2-karl-floersch-fed1f630002a

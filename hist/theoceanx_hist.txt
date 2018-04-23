@@ -10,3 +10,4 @@ https://medium.com/the-ocean-x/api-first-ask-questions-later-the-infrastructure-
 https://medium.com/the-ocean-x/we-changed-our-name-slightly-4cd72bf4d386
 https://medium.com/the-ocean-x/efficient-execution-surveying-the-dex-landscape-e514f57fcf8a
 https://medium.com/the-ocean-x/cryptos-algos-and-you-a680aa785166
+https://medium.com/the-ocean-x/erc20-tokens-valuation-and-the-future-of-tokenized-assets-52d195da96dd

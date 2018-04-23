@@ -10,3 +10,4 @@ https://medium.com/bitfinex/new-tokens-added-to-bitfinex-f00391305214
 https://medium.com/bitfinex/new-tokens-tradable-on-bitfinex-d2635bda1e32
 https://medium.com/bitfinex/bitfinex-introduces-trading-for-12-new-ethereum-tokens-d008d5a2e720
 https://medium.com/bitfinex/introducing-hive-e22fc731775c
+https://medium.com/bitfinex/bitfinex-api-dev-update-april-ee10d59f75c2

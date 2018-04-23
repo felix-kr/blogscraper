@@ -9,3 +9,6 @@ https://medium.com/originprotocol/building-on-origin-announcing-the-latest-proje
 https://medium.com/originprotocol/announcing-origin-protocols-first-technology-partner-wetrust-33a52c311ab7
 https://medium.com/originprotocol/moving-from-slack-to-discord-1dd2c939b77b
 https://medium.com/originprotocol/origin-nucypher-private-data-on-a-public-blockchain-ba6e6f85ecb8
+https://medium.com/originprotocol/beyond-blocks-tokyo-2018-ca1a991c3c61
+https://medium.com/originprotocol/origin-protocol-kozaza-bridging-the-past-and-the-future-using-blockchain-566f7a0b35b6
+https://medium.com/originprotocol/managing-identity-with-a-ui-for-erc-725-5c7422b38c09

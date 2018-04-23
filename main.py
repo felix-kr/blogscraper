@@ -26,7 +26,12 @@ def checkhist(id):
             print("New Story: " + y)
             if not vars(args)["t"]:
                 telegrambot.sendmsg(y)
+                sendstats(id)
     write.close()
+
+def sendstats(id):
+    if len(dict1[id]) != 1:
+        telegrambot.sendmsg("https://tradingview.com/chart/?symbol=" + dict1[id]["_ticker"] + "USD")
 
 IDs = json.load(open("IDs.json"))
 open("log.txt", "w").close()
@@ -35,9 +40,11 @@ log = open("log.txt", "a")
 dict1 = {}
 
 for x in IDs: # setting up dict
-    dict1[x] = {"url" : IDs[x]}
+    dict1[x] = {"url" : IDs[x][0]}
     dict1[x][x + "_curr"] = set()
     dict1[x][x + "_hist"] = str()
+    if len(IDs[x]) != 1:
+        dict1[x]["_ticker"] = IDs[x][1]
 
 print("Starting...")
 
